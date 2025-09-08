@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Оператор SWITCH</h1>
+    <script>
+     
+        let number1 = parseFloat(prompt("vvedi chislo"));
+        let number2 = parseFloat(prompt("vvedi chislo"));
+        let value = prompt("vvedite znach");
+        switch (value)
+        {   
+                    case "+" :
+                result = number1 + number2;
+                 alert(result);
+            
+            
+            
+            break;
+            case "-":
+                       result = number1 - number2;
+                       alert(" result"  +  result);
+                         break;
+                    case "/":
+                        if( number1 != 0 || number2 != 0) {                      
+                               result = number1 / number2;
+                               alert(" result" + result);
+                              }
+                              else
+                              {
+                                alert(" delit na 0 nelzya");
+                              }
+                                break;
+                            
+                            case "*":
+                                       result = number1 * number2;
+                                       alert(" result" + result);
+                                         break;
+
+        }
+    </script>
+</body>
+</html>
+
